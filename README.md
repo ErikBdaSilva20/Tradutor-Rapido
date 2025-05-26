@@ -1,12 +1,28 @@
-# React + Vite
+<h1 style="text-align: center;">🌐 Tradutor DevClub - Tradutor de linguas com React 🚀</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p style="text-align: center;">
+  Este projeto foi desenvolvido React, onde representa um tradutor de linguas via API. O conceito desse projeto foi aprender <strong>Estruturação de pastas </strong> e o uso de <strong>Tailwind CSS.</strong>
+</p>
 
-Currently, two official plugins are available:
+<h2>🛠️ Tecnologias Utilizadas:</h2>
+<p style="text-align: center;">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Badge">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React Badge">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind Badge">
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>📋 O Que o Projeto Faz:</h2> 
+<ul>
+  <li>🌍 Permite selecionar idiomas diferentes para tradução.</li>
+  <li>⌨️ O usuário insere um texto e obtém a tradução automaticamente.</li>
+  <li>🎨 Utiliza Tailwind CSS para estilização rápida, responsiva e moderna.</li>
+  <li>🧠 Este projeto foi a minha primeira experiência prática com Tailwind CSS em conjunto com React.</li>
+</ul>
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h2>🌍 Links Importantes:</h2>
+<ul>
+  <li>🔗 <strong>Repositório no GitHub:</strong> <a href="https://github.com/ErikBdaSilva20/Tradutor-Rapido" target="_blank">https://github.com/ErikBdaSilva20/Tradutor-Rapido</a></li>
+  <li>🌐 <strong>Deploy do Projeto:</strong> <a href="https://erikbdasilva20.github.io/Tradutor-Rapido/" target="_blank">https://erikbdasilva20.github.io/Tradutor-Rapido/</a></li>
+</ul>
