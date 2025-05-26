@@ -23,7 +23,7 @@ function App() {
       }, 500)
       return () => clearTimeout(delay)
     } else {
-      setTranslatedText('') // limpa tradução se texto vazio
+      setTranslatedText('')
     }
   }, [sourceText, sourceLang, targetLang])
 
@@ -63,7 +63,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
-      <header className="bg-withe  shadow-sm">
+      <header className="bg-withe  shadow-sm items-center flex">
         <div className="max-w-5xl mx-auto px-4 py-3 flex items-center">
           <h1 className="text-headerColor text-2xl font-bold">
             Tradutor - DevClub
@@ -72,7 +72,7 @@ function App() {
       </header>
 
       <main className="flex-grow flex item-center justify-center px-4 py-8">
-        <div className="w-full max-w-5xl bg-white rounded-lg shadow-md overflow-hidden max-h-80">
+        <div className="w-full max-w-5xl rounded-lg shadow-md overflow-hidden">
           <div className="flex items-center justify-between p-4 border-b border-gray-200">
             <select
               value={sourceLang}
@@ -119,8 +119,10 @@ function App() {
             </select>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2">
-            <div className="p-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 gap-4">
+            <div className="p-4 bg-white rounded-lg">
+              {' '}
+              {/* <-- aqui */}
               <textarea
                 value={sourceText}
                 onChange={event => {
@@ -131,7 +133,7 @@ function App() {
               ></textarea>
             </div>
 
-            <div className=" relative p-4 bg-secondaryBackground border-l border-gray-200">
+            <div className=" relative p-4 bg-red-50 border-l border-gray-200">
               {isLoading ? (
                 <div className=" absolute flex items-center justify-center inset-0">
                   <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-blue-600"></div>
