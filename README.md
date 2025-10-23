@@ -21,8 +21,10 @@
   <li>🧠 Este projeto foi a minha primeira experiência prática com Tailwind CSS em conjunto com React.</li>
 </ul>
 
-<h2>🌍 Links Importantes:</h2>
-<ul>
-  <li>🔗 <strong>Repositório no GitHub:</strong> <a href="https://github.com/ErikBdaSilva20/Tradutor-Rapido" target="_blank">https://github.com/ErikBdaSilva20/Tradutor-Rapido</a></li>
-  <li>🌐 <strong>Deploy do Projeto:</strong> <a href="https://erikbdasilva20.github.io/Tradutor-Rapido/" target="_blank">https://erikbdasilva20.github.io/Tradutor-Rapido/</a></li>
-</ul>
+<h2>🌟 Links</h2>
+
+📂 Repositório no GitHub: [https://github.com/ErikBdaSilva20/Tradutor-Rapido](https://github.com/ErikBdaSilva20/Tradutor-Rapido)
+
+🌐 Projeto no GitHub Pages: [https://erikbdasilva20.github.io/Tradutor-Rapido/](https://erikbdasilva20.github.io/Tradutor-Rapido/)
+
+🔗 Perfil no LinkedIn: [https://www.linkedin.com/in/erik-borgessilva20](https://www.linkedin.com/in/erik-borgessilva20)
